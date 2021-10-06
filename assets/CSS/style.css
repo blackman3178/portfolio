@@ -17,10 +17,10 @@ body {
     --darkBorderStyle: 3px solid navy;
 }
 /* makes backghround of intro grey */
-#intro {
+/* #intro {
 
     background-color: grey;
-}
+} */
 /* styling for name in header */
 header h1 {
     display: inline-block;
@@ -39,14 +39,14 @@ nav {
     flex-wrap: wrap;
     float: right;
     clear: both;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 /* styling for words in nav bar */
 nav a {
     border-bottom: var(--borderStyle);
     color: turquoise;
-    background-color: grey;
+    /* background-color: grey; */
     margin: 25px 25px 25px 0;
     font-size: 25px;
     text-decoration: none;
@@ -103,7 +103,7 @@ nav a {
     font-size: 180%;
     padding-left: 5px;
     padding-right: 5px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 } 
 
 /* sets opacity rule width and a border for the surf image */
@@ -123,8 +123,6 @@ nav a {
 /* sets opacity rule and with and border to the images in the other cards */
 .smallCards
 .card img {
-    border: var(--borderStyle);
-    width: 50%;
     opacity: .5;
 }
 
@@ -142,21 +140,21 @@ nav a {
 }
 
 /* creates flexbox for small card section */
-.smallCards {
+/* .smallCards {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: flex-end;
   
   
-}
+} */
 /* sets sizing for other cards */
-.smallCards img {
+/* .smallCards img {
 
     width:150px;
     height: 200px;
-    object-fit: cover;
-}
+    object-fit: fill;
+} */
 
 /* spaces the contatc info in the footer */
 #contact div{
@@ -177,4 +175,5 @@ nav a {
 .card img:hover {
 opacity: 1;
 }
+
 

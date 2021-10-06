@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-1</title>
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header id = "intro">
-        <h1>Noah Blackman</h1>
+        <h1 class="rounded">Noah Blackman</h1>
         <nav>
             <a href="#about">About Me</a>
             <a href="#work">Work</a>
@@ -21,7 +25,7 @@
     <section class="wood">
         
         <div>
-            <h3>Cool subtitle here!</h3>
+            <h3 class="rounded ">Full-Stack Development With Global Insights</h3>
         </div>
 
     </section>
@@ -44,38 +48,27 @@
         <h1>Work</h1>
         <div class="cards">
             <section id="surfReport">
-                <div class="text">Surf Report</div>
-                <a href = "https://www.google.com/" target="#">
-                    <img src="./assets/images/wave.jpeg" alt="Surf Report">
+                <div class="text rounded">Two City Comparison Tool</div>
+                <a href = "https://pgandhi21.github.io/Two-City-Comparison-Tool/" target="#">
+                    <img src="./assets/images/2-city.PNG" alt="Surf Report">
                 </a>
                 <!-- why does the image consist of another image & take up the whole screen  -->
             </section>
-        <div class = "smallCards">
-            <section class="card" id="LED">
-                <div class="text"> LED Wall</div>
-                <a href="https://www.google.com/" target ="#">
-                    <img src="./assets/images/LED.jpeg" alt="LED Wall">
-                </a>
-            </section>
-            <section class="card" id="calculator">
-                <div class="text">Calculator</div>
-                <a href="https://www.google.com/" target="#">
-                    <img src="./assets/images/calculator.jpeg" alt="Calculator">
-                </a>
-            </section>
-
-            <section class="card" id="puzzle">
-                <div class="text">Puzzle</div>
-                <a href="https://www.google.com/" target="#">
-                    <img src="./assets/images/puzzle.jpeg" alt="Puzzle">
-                </a>
-            </section>
-            <section class="card" id="runBuddy">
-                <div class="text">Run Buddy</div>
-                <a href="https://www.google.com/" target="#">
-                    <img src="./assets/images/runBuddy.png" alt="Run Buddy">
-                </a>
-            </section>
+        <div class = "smallCards container">
+            <div class="row ">
+                <section class="card col-md " id="LED">
+                    <div class="text rounded">Weather Dashboard</div>
+                    <a href="https://blackman3178.github.io/weather-dashboard/" target ="#">
+                        <img src="./assets/images/Weather-dashboard.PNG" alt="LED Wall" style="width:100%" class="rounded">
+                    </a>
+                </section>
+                <section class="card col-md" id="calculator">
+                    <div class="text thumbnail rounded" >Password Generator</div>
+                    <a href="https://www.google.com/" target="#">
+                        <img src="./assets/images/Password-generator.PNG" alt="Calculator" class=" rounded calc-picture" style="width:100%">
+                    </a>
+                </section>
+            </div>
         </div>
         </div>
 
@@ -85,10 +78,9 @@
         <h1>Contact Me</h1>
         <div>
            <a href="#">813-390-0689</a>
-           <a href="#">blackman3178@gmail.com</a>
-           <a href="#">GitHub</a>
-           <a href="#">Instagram</a>
-           <a href="#">Spotify</a>
+           <a href="#">nablackman6@gmail.com</a>
+           <a href="https://github.com/blackman3178" target="#">GitHub</a>
+           <a href="https://www.linkedin.com/in/nablackman" target="#">LinkedIn</a>
         </div>
     </footer>
     
